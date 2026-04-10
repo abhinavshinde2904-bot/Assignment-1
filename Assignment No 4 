@@ -1,0 +1,59 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMJ6spaStuX3/USLPlKXSN8",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/abhinavshinde2904-bot/Assignment-1/blob/main/Assignment%20No%204%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PJNwNBAFEmDu",
+        "outputId": "5f133a25-5b94-4e58-eaf5-93892085b9a3"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Sum of odd numbers: 25\n"
+          ]
+        }
+      ],
+      "source": [
+        "sum_odd = 0\n",
+        "\n",
+        "for i in range(1, 11):\n",
+        "    if i % 2 != 0:\n",
+        "        sum_odd += i\n",
+        "\n",
+        "print(\"Sum of odd numbers:\", sum_odd)"
+      ]
+    }
+  ]
+}
